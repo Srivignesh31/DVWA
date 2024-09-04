@@ -3,7 +3,7 @@ name: Semgrep Scan
 on:
   push:
     branches:
-      - main  # Or your desired branch
+      - '*'
 
 jobs:
   semgrep:
